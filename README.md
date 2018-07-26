@@ -1,7 +1,7 @@
 # LazyCached
 Simple library, that adds possibility of caching to Kotlin's `lazy`.
 
-#### [Check examples](#Example)  
+#### [Check examples](#example)  
 #### [Gradle](#get-into-gradle)
 #### [Maven](#get-into-maven)
 
