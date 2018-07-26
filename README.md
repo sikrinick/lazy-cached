@@ -1,6 +1,13 @@
-# LazyCached
+#LazyCached
 Simple library, that adds possibility of caching to Kotlin's `lazy`.
 
+#### [Example](#Example)  
+#### [Imports](#Imports)
+* [Gradle](#Gradle)
+* [Maven](#Maven)
+
+
+### Example
 For example, imagine we have some resource-intensive operation:
 ```
 import lazyCached
@@ -54,3 +61,39 @@ where `True` forces first argument to be revoked again.
 
 [More examples](src/main/kotlin/examples)  
 [Tests](src/test/kotlin)
+
+
+### Imports
+#### Gradle
+Add it in your root `build.gradle` at the end of repositories:
+```
+allprojects {
+    repositories {
+        ...
+        maven { url 'https://jitpack.io' }
+    }
+}
+```
+Add the dependency
+```
+dependencies {
+    implementation 'com.github.sikrinick:lazy-cached:v1.0.0'
+}
+```
+#### Maven
+```
+<repositories>
+    <repository>
+        <id>jitpack.io</id>
+        <url>https://jitpack.io</url>
+    </repository>
+</repositories>
+```
+Add the dependency
+```
+<dependency>
+    <groupId>com.github.sikrinick</groupId>
+    <artifactId>lazy-cached</artifactId>
+    <version>v1.0.0</version>
+</dependency>
+```
