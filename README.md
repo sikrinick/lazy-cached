@@ -1,4 +1,4 @@
-#LazyCached
+# LazyCached
 Simple library, that adds possibility of caching to Kotlin's `lazy`.
 
 #### [Check examples](#Example)  
@@ -62,8 +62,8 @@ where `True` forces first argument to be revoked again.
 [Tests](src/test/kotlin)
 
 
-###Imports
-####Get into Gradle
+### Imports
+#### Get into Gradle
 Add it in your root `build.gradle` at the end of repositories:
 ```
 allprojects {
@@ -79,7 +79,7 @@ dependencies {
     implementation 'com.github.sikrinick:lazy-cached:v1.0.0'
 }
 ```
-####Get into Maven
+#### Get into Maven
 ```
 <repositories>
     <repository>
